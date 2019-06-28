@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ED73F3A6-6459-4417-B92C-465EEF85EA2D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>STRUCTActions</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(BOOSTSDK);$(CUDA_PATH)\include;$(EIGEN_ROOT)\include\Eigen;$(IncludePath)</IncludePath>
+    <LibraryPath>$(BOOSTSDK)\lib64-msvc-14.0\;$(CUDA_PATH)\lib\x64\;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IncludePath>$(BOOSTSDK);$(CUDA_PATH)\include;$(EIGEN_ROOT)\include\Eigen;$(IncludePath)</IncludePath>
+    <LibraryPath>$(BOOSTSDK)\lib64-msvc-14.0\;$(CUDA_PATH)\lib\x64\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;REFLECTION_SUPPORT;STRUCT_EXPORTS;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;REFLECTION_SUPPORT;STRUCT_EXPORTS;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ActionEventPairLayer.cpp" />
+    <ClCompile Include="ActionNormalizationOperator.cpp" />
+    <ClCompile Include="ActionNormalsDataConversionLayer.cpp" />
+    <ClCompile Include="ActionNormalsSamplerLayer.cpp" />
+    <ClCompile Include="ActionPairwiseLayer.cpp" />
+    <ClCompile Include="ActionRepresentationDataPacket.cpp" />
+    <ClCompile Include="ActionRepresentationLayer.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Interpolator.cpp" />
+    <ClCompile Include="Smooth.cpp" />
+    <ClCompile Include="So3LieAlgebra.cpp" />
+    <ClCompile Include="Spline.cpp" />
+    <ClCompile Include="STRUCTDataLayer.cpp" />
+    <ClCompile Include="STRUCTDataPacket.cpp" />
+    <ClCompile Include="STRUCT_objectdefs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActionEventPairLayer.h" />
+    <ClInclude Include="ActionNormalizationOperator.h" />
+    <ClInclude Include="ActionNormalsDataConversionLayer.h" />
+    <ClInclude Include="ActionNormalsSamplerLayer.h" />
+    <ClInclude Include="ActionPairwiseLayer.h" />
+    <ClInclude Include="ActionRepresentationDataPacket.h" />
+    <ClInclude Include="ActionRepresentationLayer.h" />
+    <ClInclude Include="Persistence1D.h" />
+    <ClInclude Include="Interpolator.h" />
+    <ClInclude Include="So3LieAlgebra.h" />
+    <ClInclude Include="Spline.h" />
+    <ClInclude Include="STRUCTDataLayer.h" />
+    <ClInclude Include="ActionDataPacket.h" />
+    <ClInclude Include="STRUCT_Config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.vcxproj">
+      <Project>{212ab2d3-0b46-493e-a44c-03e19a1d5816}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Graphics\Graphics.vcxproj">
+      <Project>{568af49e-7cd8-4ee9-a3aa-9990d5a7214c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Learning\Learning.vcxproj">
+      <Project>{dddba956-6175-4ac7-9030-1ed30c38967d}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\TimeSeries">
+      <UniqueIdentifier>{afa720f7-f506-4a9d-88f8-4307738e74ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TimeSeries">
+      <UniqueIdentifier>{ef08bf42-e9af-4a4c-bd1e-0267357b7189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\details">
+      <UniqueIdentifier>{1050f227-2912-4d69-8251-45b23e6db42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TimeSeries\FeatureExtraction">
+      <UniqueIdentifier>{d3f75d9d-2f81-48bf-a021-447203d61bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\TimeSeries\FeatureExtraction">
+      <UniqueIdentifier>{ffd0cc3d-6087-4246-b6d1-a671d1e30714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\TimeSeries\FeatureExtraction\Operators">
+      <UniqueIdentifier>{39c7d74a-05e7-42b6-a22d-ff874a8f396e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TimeSeries\FeatureExtraction\Operators">
+      <UniqueIdentifier>{e8232266-59d6-4ff7-ad6d-edef452392f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\TimeSeries\FeatureExtraction\Operators\details">
+      <UniqueIdentifier>{3b3f2634-d402-4501-a5dc-27a967a9e861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Machines">
+      <UniqueIdentifier>{0f854b8b-868a-45dd-a558-c88f6ee85b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Machines">
+      <UniqueIdentifier>{e146f07d-e734-4830-b4a5-003d315c9b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Machines\Supervised">
+      <UniqueIdentifier>{fdd4e658-da8e-48ac-810f-d3d6af0b58f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Machines\Unsupervised">
+      <UniqueIdentifier>{bf7a134a-a311-4df7-9fe5-a24539f94e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Machines\Unsupervised">
+      <UniqueIdentifier>{59029412-5e1f-4431-8ecf-61672abfcfcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Machines\Supervised">
+      <UniqueIdentifier>{09299ca1-48c7-44bf-9874-29c56e64b5b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Machines\Supervised\details">
+      <UniqueIdentifier>{0ab81a14-7233-4de1-b9e4-731b2d422b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Machines\Supervised\details\RandomForestLayer">
+      <UniqueIdentifier>{7992743c-d974-4df2-ba30-abded35903de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Machines\Supervised\details">
+      <UniqueIdentifier>{4ca26be0-e402-4f22-9586-82a144525ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Machines\Supervised\details\RandomForestLayer">
+      <UniqueIdentifier>{b2abf6b3-c944-48f5-a7cd-eae0108da632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TimeSeries\FeatureExtraction\Operators\details">
+      <UniqueIdentifier>{450ff42e-7a8e-4402-882c-ae6a2de5278c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Learning.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeData.cpp">
+      <Filter>源文件\TimeSeries</Filter>
+    </ClCompile>
+    <ClCompile Include="LEARNING_objectdefs.cpp">
+      <Filter>源文件\details</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSeriesLayer.cpp">
+      <Filter>源文件\TimeSeries</Filter>
+    </ClCompile>
+    <ClCompile Include="MultivariateTimeSeriesFeatureExtractionLayer.cpp">
+      <Filter>源文件\TimeSeries\FeatureExtraction</Filter>
+    </ClCompile>
+    <ClCompile Include="MultivariateTimeSeriesFeaturePacket.cpp">
+      <Filter>源文件\TimeSeries\FeatureExtraction</Filter>
+    </ClCompile>
+    <ClCompile Include="Clustering.cpp">
+      <Filter>源文件\TimeSeries</Filter>
+    </ClCompile>
+    <ClCompile Include="PeriodicClusteringOperator.cpp">
+      <Filter>源文件\TimeSeries\FeatureExtraction\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="PeriodicPairwiseFeatureExtractionOperator.cpp">
+      <Filter>源文件\TimeSeries\FeatureExtraction\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomForestLayer.cpp">
+      <Filter>源文件\Machines\Supervised</Filter>
+    </ClCompile>
+    <ClCompile Include="DecisionLake.cpp">
+      <Filter>源文件\Machines\Supervised\details\RandomForestLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomForestLayerDataPacket.cpp">
+      <Filter>源文件\Machines\Supervised\details\RandomForestLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="PairwiseFieldOperator.cpp">
+      <Filter>源文件\TimeSeries\FeatureExtraction\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="DecisionUnitL1.cpp">
+      <Filter>源文件\Machines\Supervised</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Learning_Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Learning.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeData.h">
+      <Filter>头文件\TimeSeries</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSeriesLayer.h">
+      <Filter>头文件\TimeSeries</Filter>
+    </ClInclude>
+    <ClInclude Include="MultivariateTimeSeriesFeatureExtractionLayer.h">
+      <Filter>头文件\TimeSeries\FeatureExtraction</Filter>
+    </ClInclude>
+    <ClInclude Include="MultivariateTimeSeriesFeaturePacket.h">
+      <Filter>头文件\TimeSeries\FeatureExtraction</Filter>
+    </ClInclude>
+    <ClInclude Include="Clustering.h">
+      <Filter>头文件\TimeSeries</Filter>
+    </ClInclude>
+    <ClInclude Include="PeriodicClusteringOperator.h">
+      <Filter>头文件\TimeSeries\FeatureExtraction\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="PeriodicPairwiseFeatureExtractionOperator.h">
+      <Filter>头文件\TimeSeries\FeatureExtraction\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomForestLayer.h">
+      <Filter>头文件\Machines\Supervised</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionLake.h">
+      <Filter>头文件\Machines\Supervised\details\RandomForestLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomDecisionSea.h">
+      <Filter>头文件\Machines\Supervised\details\RandomForestLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomForestLayerDataPacket.h">
+      <Filter>头文件\Machines\Supervised\details\RandomForestLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="PairwiseFieldOperator.h">
+      <Filter>头文件\TimeSeries\FeatureExtraction\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionUnitL1.h">
+      <Filter>头文件\Machines\Supervised</Filter>
+    </ClInclude>
+    <ClInclude Include="Persistence1D.h">
+      <Filter>头文件\TimeSeries\FeatureExtraction\Operators\details</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

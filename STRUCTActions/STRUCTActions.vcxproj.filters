@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\details">
+      <UniqueIdentifier>{bdcc41aa-87b6-40ff-95ce-57d06e8007bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\STRUCT">
+      <UniqueIdentifier>{89f5784a-e80a-4ce1-b5bf-489af18be26d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\STRUCT">
+      <UniqueIdentifier>{72b0d34d-1765-41ed-acf5-2db3e5a1e4b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\STRUCT\Operators">
+      <UniqueIdentifier>{ced482bc-90eb-4412-874f-3d9511318420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\STRUCT\Operators">
+      <UniqueIdentifier>{ccbdb731-9289-4e1c-b43e-2d1bc3f6b55f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\STRUCT\details">
+      <UniqueIdentifier>{d112dc2c-ae1c-4c80-8fe1-a7a0b70e1a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\STRUCT\details">
+      <UniqueIdentifier>{4d8fc5a7-4e31-49c9-8230-235f351d9364}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="STRUCT_objectdefs.cpp">
+      <Filter>源文件\details</Filter>
+    </ClCompile>
+    <ClCompile Include="STRUCTDataLayer.cpp">
+      <Filter>源文件\STRUCT</Filter>
+    </ClCompile>
+    <ClCompile Include="STRUCTDataPacket.cpp">
+      <Filter>源文件\STRUCT</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionNormalizationOperator.cpp">
+      <Filter>源文件\STRUCT\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionRepresentationLayer.cpp">
+      <Filter>源文件\STRUCT</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionRepresentationDataPacket.cpp">
+      <Filter>源文件\STRUCT</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolator.cpp">
+      <Filter>源文件\STRUCT\details</Filter>
+    </ClCompile>
+    <ClCompile Include="Smooth.cpp">
+      <Filter>源文件\STRUCT\details</Filter>
+    </ClCompile>
+    <ClCompile Include="So3LieAlgebra.cpp">
+      <Filter>源文件\STRUCT\details</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionNormalsDataConversionLayer.cpp">
+      <Filter>源文件\STRUCT</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline.cpp">
+      <Filter>源文件\STRUCT\details</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionEventPairLayer.cpp">
+      <Filter>源文件\STRUCT</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionPairwiseLayer.cpp">
+      <Filter>源文件\STRUCT</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionNormalsSamplerLayer.cpp">
+      <Filter>源文件\STRUCT</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="STRUCT_Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STRUCTDataLayer.h">
+      <Filter>头文件\STRUCT</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionRepresentationLayer.h">
+      <Filter>头文件\STRUCT</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionNormalizationOperator.h">
+      <Filter>头文件\STRUCT\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionRepresentationDataPacket.h">
+      <Filter>头文件\STRUCT</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolator.h">
+      <Filter>头文件\STRUCT\details</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionDataPacket.h">
+      <Filter>头文件\STRUCT</Filter>
+    </ClInclude>
+    <ClInclude Include="So3LieAlgebra.h">
+      <Filter>头文件\STRUCT\details</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionNormalsDataConversionLayer.h">
+      <Filter>头文件\STRUCT</Filter>
+    </ClInclude>
+    <ClInclude Include="Spline.h">
+      <Filter>头文件\STRUCT\details</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionEventPairLayer.h">
+      <Filter>头文件\STRUCT</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionPairwiseLayer.h">
+      <Filter>头文件\STRUCT</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionNormalsSamplerLayer.h">
+      <Filter>头文件\STRUCT</Filter>
+    </ClInclude>
+    <ClInclude Include="Persistence1D.h">
+      <Filter>头文件\STRUCT\details</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

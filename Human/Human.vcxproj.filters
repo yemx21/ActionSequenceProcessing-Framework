@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{ac5d57af-9489-42e1-b78d-dd4319d28cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{f7f9b28a-8858-45b9-a7f0-9f0362274c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Skeleton">
+      <UniqueIdentifier>{390be509-e35f-40a3-b9f8-2bc318361569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Skeleton">
+      <UniqueIdentifier>{30bee11b-7734-4590-a540-5638961a9dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Skeleton\Operators">
+      <UniqueIdentifier>{546d39c3-abc1-40e9-bb63-242e0ca1ae0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Skeleton\Operators">
+      <UniqueIdentifier>{0c23863a-c94c-4200-a6ce-4ad81ea96753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\details">
+      <UniqueIdentifier>{244a796f-5c05-4571-8524-c04d7c492405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Skeleton\Operators\Representation">
+      <UniqueIdentifier>{c8b79c10-d100-4a82-bf4f-377125da41b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Skeleton\Operators\Representation">
+      <UniqueIdentifier>{3d836405-d0ea-4f67-9206-f3e2bf71694c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Skeleton\Operators\Representation\details">
+      <UniqueIdentifier>{24f2a739-b572-4f7b-a284-432dbb8b0099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Skeleton\Operators\Representation\details">
+      <UniqueIdentifier>{385197ec-0ca4-49e5-9835-0b95beb1dfb5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Human_Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonDataLayer.h">
+      <Filter>头文件\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonDataPacket.h">
+      <Filter>头文件\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonRepresentationDataPacket.h">
+      <Filter>头文件\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonRepresentationLayer.h">
+      <Filter>头文件\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="GaitPhaseRepresentationOperator.h">
+      <Filter>头文件\Skeleton\Operators\Representation</Filter>
+    </ClInclude>
+    <ClInclude Include="GaitCycleNormalizationOperator.h">
+      <Filter>头文件\Skeleton\Operators\Representation</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolator.h">
+      <Filter>头文件\Skeleton\Operators\Representation\details</Filter>
+    </ClInclude>
+    <ClInclude Include="GaitCycle.h">
+      <Filter>头文件\Skeleton\Operators\Representation\details</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SkeletonDataLayer.cpp">
+      <Filter>源文件\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonDataPacket.cpp">
+      <Filter>源文件\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonRepresentationLayer.cpp">
+      <Filter>源文件\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="HUMAN_objectdefs.cpp">
+      <Filter>源文件\details</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="GaitPhaseRepresentationOperator.cpp">
+      <Filter>源文件\Skeleton\Operators\Representation</Filter>
+    </ClCompile>
+    <ClCompile Include="GaitCycleNormalizationOperator.cpp">
+      <Filter>源文件\Skeleton\Operators\Representation</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolator.cpp">
+      <Filter>源文件\Skeleton\Operators\Representation\details</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonRepresentationDataPacket.cpp">
+      <Filter>源文件\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Smooth.cpp">
+      <Filter>源文件\Skeleton\Operators\Representation\details</Filter>
+    </ClCompile>
+    <ClCompile Include="GaitCycle.cpp">
+      <Filter>源文件\Skeleton\Operators\Representation\details</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

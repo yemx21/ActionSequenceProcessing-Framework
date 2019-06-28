@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\details">
+      <UniqueIdentifier>{92fa2356-03ba-4f59-b5c5-0c10d8aebad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\details">
+      <UniqueIdentifier>{2151a9f2-38a8-4b1b-8de0-9d90b04ac93b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Common">
+      <UniqueIdentifier>{4e2919c3-4ef2-4dda-98d7-8170c9e286ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Common">
+      <UniqueIdentifier>{de6d5560-079f-4bf1-bdc5-12a65941cec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Parameters">
+      <UniqueIdentifier>{50435a47-80e1-4f77-9f93-c0646956114c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Parameters">
+      <UniqueIdentifier>{67eb3981-fa6e-40fc-a823-0753cc9ff96d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Core_Config.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataLayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Results.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer_impl.cpp">
+      <Filter>源文件\details</Filter>
+    </ClCompile>
+    <ClCompile Include="BSDB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeFactory_impl.cpp">
+      <Filter>源文件\details</Filter>
+    </ClCompile>
+    <ClCompile Include="InertiaString.cpp">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectInfo.cpp">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Type.cpp">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeCaches.cpp">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeFactory.cpp">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CORE_objectdefs.cpp">
+      <Filter>源文件\details</Filter>
+    </ClCompile>
+    <ClCompile Include="Converter.cpp">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Types.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStreamReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Encodings.cpp">
+      <Filter>源文件\details</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterStringReader.cpp">
+      <Filter>源文件\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleChunkLayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MLON.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Core_Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataLayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Results.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer_impl.h">
+      <Filter>头文件\details</Filter>
+    </ClInclude>
+    <ClInclude Include="cuda_config.h">
+      <Filter>头文件\details</Filter>
+    </ClInclude>
+    <ClInclude Include="BSDB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeCaches_impl.h">
+      <Filter>头文件\details</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeFactory_impl.h">
+      <Filter>头文件\details</Filter>
+    </ClInclude>
+    <ClInclude Include="InertiaString.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectInfo.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Optional.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="OSHelper.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeCaches.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeFactory.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeList.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectDef.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Converter.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>头文件\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>头文件\details</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStreamReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Encodings.h">
+      <Filter>头文件\details</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectInfo_impl.h">
+      <Filter>头文件\details</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StringDerivedParameterPacket.h">
+      <Filter>头文件\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleChunkLayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MLON.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
